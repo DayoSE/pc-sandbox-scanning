@@ -2,7 +2,7 @@ pipeline {
    agent any
    environment {
       AWS_REGION = 'us-east-1'
-      ECR_REPOSITORY = '007147845790.dkr.ecr.us-east-1.amazonaws.com/code2cloud-ecrssh-keygen -m PEM -f server -N ""'
+      ECR_REPOSITORY = '007147845790.dkr.ecr.us-east-1.amazonaws.com/code2cloud-ecr'
       CONTAINER_NAME = 'code2cloud'
    }
     stages {
