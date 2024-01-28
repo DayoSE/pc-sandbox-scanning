@@ -21,7 +21,7 @@ WORKDIR /home/app
 COPY entrypoint.sh /home/app/entrypoint.sh
 ENTRYPOINT ["sh","entrypoint.sh"]
 
-Malware end
+# Malware end
 
 COPY ./ /usr/src/
 WORKDIR /usr/src
